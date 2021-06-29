@@ -5,7 +5,18 @@
 
 
 ## Introduction
-This project is the result of a practice about Object Oriented Programming. Classes, objects, properties, methods, abstraction, polymorphism, inheritance and encapsulation are the main topics of this project.
+This project is the result of a practice about Object Oriented Programming. 
+#### main topics of this project:
+* Classes 
+* Objects
+* Properties
+* Methods
+* Abstraction
+* Polymorphism
+* Inheritance 
+* Encapsulation
+
+
 ## Technologies
 * Java
 * PHP
