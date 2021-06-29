@@ -6,7 +6,7 @@
 
 ## Introduction
 This project is the result of a practice about Object Oriented Programming. 
-#### main topics of this project:
+#### Main topics of this project:
 * Classes 
 * Objects
 * Properties
