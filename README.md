@@ -2,13 +2,12 @@
 ### Table of contents
 * [Introduction](#introduction) 
 * [Technologies](#technologies)
-* [Commands](#commands)
 * [Syntax](#syntax)
-* [Examples](#examples)
+* [Illustrations](#illustrations)
 
 
 ## Introduction
-In this course we practice about Object Oriented Programming in 4 different languages, and 
+In this course we practice about Object Oriented Programming in 4 different languages.
 
 #### Main topics of this project:
 * Classes 
@@ -25,12 +24,6 @@ In this course we practice about Object Oriented Programming in 4 different lang
 * PHP
 * Javascript
 * Python
-
-## Commands
-| Function name | Description                    |
-| ------------- | ------------------------------ |
-| `git clone url`      | This command saves the directory as the default directory name of the git repository       |
-| `git checkout branch_name`   |  Reach to the target branch    | 
 
 
 ## Syntax
@@ -61,8 +54,52 @@ function walk(){}
 }
 ```
 
+#### Constructor Method
+##### Java
+```
+public Person(String name){
+this.name=name;
+}
+```
+##### JavaScript
+```
+function Person(name){
+this.name=name
+}
+```
 
-## Illistrations
+##### PHP
+```
+public function __construct($name){
+$this->name=name;
+}
+```
+##### Python
+```
+def __int__(self,name):
+self.name=name
+```
+
+
+#### Getters & Setters example in java
+```
+public Integer getPassenger()
+    {
+        return passenger;
+    }
+    public void setPassenger(Integer passenger)
+    {
+        if(passenger==4){
+            this.passenger = passenger;
+        }else{
+            System.out.println("Necesitas asignar 4 pasajeros");
+        }
+    }
+
+```
+
+
+## Illustrations
 
 In this diagram we practiced the abstraction and graphically we could show the logic of the relations.
 ![](images/1.jpg)
