@@ -53,7 +53,7 @@ $name=””;
 function walk(){}
 }
 ```
-
+************************************
 #### Constructor Method
 ##### Java
 ```
@@ -80,7 +80,7 @@ def __int__(self,name):
 self.name=name
 ```
 
-
+************************************
 #### Getters & Setters example in java
 ```
 public Integer getPassenger()
